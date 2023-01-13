@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  display: flex;
+}
+
+.div1, .div2, .div3 {
+
+}
+.div1 {
+  width: 100px;
+  height: 100px;
+  background-color: lightseagreen;
+}
+
+.div2 {
+  flex: 1;
+  background-color: pink;
+}
+
+
+.div3 {
+  width: 100px;
+  height: 100px;
+  background-color: lightsalmon;
+}
